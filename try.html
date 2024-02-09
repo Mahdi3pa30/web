@@ -1,0 +1,49 @@
+<style>
+    #Sing{
+        background-color:rgb(169, 187, 190);
+        padding: 20px;
+        width: 250px;
+        
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+</style>
+
+<htm> 
+    <body style="background-color: rgb(51, 65, 112); ">
+        
+        <form id="Sing" >
+            <h1> Sing in </h1><br>
+            <label for="fullname">full name:</label><br>
+            <input type="text" id="name" name="name" placeholder="fullname" required><br><br>
+            <lable for="email"> email:</lable><br>
+            <input type="email" id="name" name="email" placeholder="email" ><br><br>
+            <lable for="passworld"> passworld:</lable><br>
+            <input type="text" id="name" name="pass" placeholder="passworld" required><br><br>
+            <lable for="comfirmpassworld"> comfirm passworld:</lable><br>
+            <input type="text" id="name" name="comfirmpassworld" placeholder="comfirmpassworld" required><br><br>
+            
+            <label for="date"> Date:</label><br>
+            <input type="date"  id="date" name="date"><br><br>
+            <lable for="gender">Gender:</lable><br>
+            <input type="radio" id="gender1" name="gender" value="male" required> <label for="gender1"> Male</label>
+            <input type="radio" id="gender2" name="gender" value="female" required> <label for="gender2"> Female</label>
+            
+            <br><br><label>Questions:</label><input list="questions" name="question">
+            <datalist id="questions" >
+                <option value="select" re></option>
+                <option value="What is your favorite color?">
+                <option value="What's your favorite car?"></option>
+            </datalist>
+            <br>
+            <textarea name="answer" required></textarea>
+            <br><br>
+            <input type="checkbox" name="agrea" required><label>I agrea terms and conditions</label>
+            <br>
+            <input type="submit" value="Register">
+        </form>
+
+    </body>
+</htm>
+
